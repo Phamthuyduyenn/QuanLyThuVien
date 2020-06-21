@@ -66,6 +66,7 @@
             this.btnExit.TabIndex = 12;
             this.btnExit.Text = "Thoát";
             this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // btnĐN
             // 
@@ -82,6 +83,7 @@
             this.btnĐN.TabIndex = 11;
             this.btnĐN.Text = "Đăng nhập";
             this.btnĐN.UseVisualStyleBackColor = false;
+            this.btnĐN.Click += new System.EventHandler(this.BtnĐN_Click);
             // 
             // txtMK
             // 
