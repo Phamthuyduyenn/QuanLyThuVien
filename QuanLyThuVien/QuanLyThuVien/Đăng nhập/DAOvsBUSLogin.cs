@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using System.Configuration;
 using System.Security.Cryptography;
 
-namespace LapTrinhCoSoDuLieu
+namespace QuanLyThuVien
 {
     class DAOvsBUSLogin
     {

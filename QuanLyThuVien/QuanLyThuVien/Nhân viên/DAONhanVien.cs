@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Transactions;
 using System.Windows.Forms;
 
-namespace LapTrinhCoSoDuLieu
+namespace QuanLyThuVien
 {
     class DAONhanVien
     {

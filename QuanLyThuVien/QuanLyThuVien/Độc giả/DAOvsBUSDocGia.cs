@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 using System.Windows.Forms;
 using System.Configuration;
 
-namespace LapTrinhCoSoDuLieu
+namespace QuanLyThuVien
 {
     class DAOvsBUSDocGia
     {

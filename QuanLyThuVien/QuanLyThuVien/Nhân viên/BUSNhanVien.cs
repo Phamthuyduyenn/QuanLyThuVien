@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using System.Configuration;
 using System.Transactions;
 
-namespace LapTrinhCoSoDuLieu
+namespace QuanLyThuVien
 {
     class BUSNhanVien
     {
