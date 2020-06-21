@@ -9,7 +9,7 @@ using System.Text;
 using System.Configuration;
 using System.Windows.Forms;
 
-namespace LapTrinhCoSoDuLieu
+namespace QuanLyThuVien
 {
     public partial class GUINhanVien : Form
     {

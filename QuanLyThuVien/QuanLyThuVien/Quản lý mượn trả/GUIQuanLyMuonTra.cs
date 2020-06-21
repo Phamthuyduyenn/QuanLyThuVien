@@ -7,22 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Globalization;
-using System.Data.SqlClient;
-using System.Security.Cryptography;
 
-namespace QuanLyThuVien
+namespace QuanLyThuVien.Quản_lý_mượn_trả
 {
-    public partial class GUILogin : Form
+    public partial class GUIQuanLyMuonTra : Form
     {
-        DAOvsBUSLogin dn = new DAOvsBUSLogin();
-
-        public GUILogin()
+        public GUIQuanLyMuonTra()
         {
             InitializeComponent();
         }
     }
 }
-
-
-

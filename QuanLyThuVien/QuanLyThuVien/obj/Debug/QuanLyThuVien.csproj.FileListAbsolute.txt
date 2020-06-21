@@ -1,9 +1,6 @@
-C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.GUINhanVien.resources
 C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Properties.Resources.resources
-C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\LapTrinhCoSoDuLieu.GUILogin.resources
+C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.GUILogin.resources
+C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.GUIDocGia.resources
 C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
 C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
-C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Nhân_viên.GUINhanVien.resources
-C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.Độc_giả.GUIDocGia.resources
-C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\LapTrinhCoSoDuLieu.GUINhanVien.resources
-C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\LapTrinhCoSoDuLieu.GUIDocGia.resources

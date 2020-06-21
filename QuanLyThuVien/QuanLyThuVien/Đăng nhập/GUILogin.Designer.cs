@@ -1,4 +1,4 @@
-﻿namespace LapTrinhCoSoDuLieu
+﻿namespace QuanLyThuVien
 {
     partial class GUILogin
     {
