@@ -72,6 +72,13 @@
     <Compile Include="Quản lý mượn trả\GUIQuanLyMuonTra.Designer.cs">
       <DependentUpon>GUIQuanLyMuonTra.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sách\DAOvsBUSSach.cs" />
+    <Compile Include="Sách\GUISach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sách\GUISach.Designer.cs">
+      <DependentUpon>GUISach.cs</DependentUpon>
+    </Compile>
     <Compile Include="Đăng nhập\DAOvsBUSLogin.cs" />
     <Compile Include="Đăng nhập\GUILogin.cs">
       <SubType>Form</SubType>
@@ -100,6 +107,9 @@
     </Compile>
     <EmbeddedResource Include="Quản lý mượn trả\GUIQuanLyMuonTra.resx">
       <DependentUpon>GUIQuanLyMuonTra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sách\GUISach.resx">
+      <DependentUpon>GUISach.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Đăng nhập\GUILogin.resx">
       <DependentUpon>GUILogin.cs</DependentUpon>
