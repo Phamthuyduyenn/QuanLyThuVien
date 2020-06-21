@@ -1,4 +1,4 @@
-﻿namespace QuanLyThuVien.Độc_giả
+﻿namespace LapTrinhCoSoDuLieu
 {
     partial class GUIDocGia
     {

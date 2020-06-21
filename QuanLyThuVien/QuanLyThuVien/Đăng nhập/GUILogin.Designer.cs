@@ -43,7 +43,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Gold;
-            this.label3.Location = new System.Drawing.Point(121, 80);
+            this.label3.Location = new System.Drawing.Point(117, 106);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(140, 46);
@@ -58,7 +58,7 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.Black;
-            this.btnExit.Location = new System.Drawing.Point(62, 277);
+            this.btnExit.Location = new System.Drawing.Point(83, 309);
             this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(94, 35);
@@ -74,7 +74,7 @@
             this.btnĐN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnĐN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnĐN.ForeColor = System.Drawing.Color.Black;
-            this.btnĐN.Location = new System.Drawing.Point(184, 277);
+            this.btnĐN.Location = new System.Drawing.Point(184, 309);
             this.btnĐN.Margin = new System.Windows.Forms.Padding(2);
             this.btnĐN.Name = "btnĐN";
             this.btnĐN.Size = new System.Drawing.Size(106, 35);
@@ -87,7 +87,7 @@
             this.txtMK.BackColor = System.Drawing.SystemColors.HighlightText;
             this.txtMK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMK.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtMK.Location = new System.Drawing.Point(155, 217);
+            this.txtMK.Location = new System.Drawing.Point(165, 231);
             this.txtMK.Margin = new System.Windows.Forms.Padding(2);
             this.txtMK.Name = "txtMK";
             this.txtMK.PasswordChar = '*';
@@ -99,7 +99,7 @@
             this.txtTK.BackColor = System.Drawing.SystemColors.HighlightText;
             this.txtTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTK.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtTK.Location = new System.Drawing.Point(155, 168);
+            this.txtTK.Location = new System.Drawing.Point(165, 202);
             this.txtTK.Margin = new System.Windows.Forms.Padding(2);
             this.txtTK.Name = "txtTK";
             this.txtTK.Size = new System.Drawing.Size(135, 23);
@@ -111,7 +111,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(47, 218);
+            this.label2.Location = new System.Drawing.Point(66, 231);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 20);
@@ -124,7 +124,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(47, 171);
+            this.label1.Location = new System.Drawing.Point(66, 202);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 20);
@@ -135,7 +135,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(366, 450);
+            this.ClientSize = new System.Drawing.Size(363, 392);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnĐN);
