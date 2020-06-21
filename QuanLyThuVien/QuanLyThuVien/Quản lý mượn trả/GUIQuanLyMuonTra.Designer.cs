@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GUIQuanLyMuonTra));
             this.btXoa = new System.Windows.Forms.Button();
             this.dtpNgayTra = new System.Windows.Forms.DateTimePicker();
-            this.cbDocGia = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.lvSach = new System.Windows.Forms.ListView();
             this.label5 = new System.Windows.Forms.Label();
@@ -54,10 +53,11 @@
             this.độcGiảToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.label1 = new System.Windows.Forms.Label();
-            this.lvGioHang = new System.Windows.Forms.ListView();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lvGioHang = new System.Windows.Forms.ListView();
             this.btChotDonHang = new System.Windows.Forms.Button();
             this.txtTimKiem = new System.Windows.Forms.TextBox();
+            this.cbDocGia = new System.Windows.Forms.ComboBox();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -74,7 +74,7 @@
             this.btXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btXoa.Image = ((System.Drawing.Image)(resources.GetObject("btXoa.Image")));
             this.btXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btXoa.Location = new System.Drawing.Point(295, 214);
+            this.btXoa.Location = new System.Drawing.Point(295, 173);
             this.btXoa.Margin = new System.Windows.Forms.Padding(2);
             this.btXoa.Name = "btXoa";
             this.btXoa.Size = new System.Drawing.Size(88, 46);
@@ -82,27 +82,18 @@
             this.btXoa.Text = "Xóa";
             this.btXoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btXoa.UseVisualStyleBackColor = false;
+            this.btXoa.Click += new System.EventHandler(this.BtXoa_Click);
             // 
             // dtpNgayTra
             // 
             this.dtpNgayTra.CustomFormat = "dd/MM/yyyy";
             this.dtpNgayTra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpNgayTra.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpNgayTra.Location = new System.Drawing.Point(112, 190);
+            this.dtpNgayTra.Location = new System.Drawing.Point(112, 149);
             this.dtpNgayTra.Name = "dtpNgayTra";
             this.dtpNgayTra.Size = new System.Drawing.Size(180, 21);
             this.dtpNgayTra.TabIndex = 57;
             this.dtpNgayTra.Value = new System.DateTime(2020, 3, 10, 22, 52, 39, 0);
-            // 
-            // cbDocGia
-            // 
-            this.cbDocGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cbDocGia.FormattingEnabled = true;
-            this.cbDocGia.Location = new System.Drawing.Point(112, 109);
-            this.cbDocGia.Margin = new System.Windows.Forms.Padding(2);
-            this.cbDocGia.Name = "cbDocGia";
-            this.cbDocGia.Size = new System.Drawing.Size(272, 23);
-            this.cbDocGia.TabIndex = 56;
             // 
             // groupBox1
             // 
@@ -110,7 +101,7 @@
             this.groupBox1.Controls.Add(this.lvSach);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.Color.Gold;
-            this.groupBox1.Location = new System.Drawing.Point(4, 267);
+            this.groupBox1.Location = new System.Drawing.Point(4, 226);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
@@ -137,7 +128,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(15, 108);
+            this.label5.Location = new System.Drawing.Point(15, 67);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(88, 20);
@@ -150,7 +141,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(15, 164);
+            this.label4.Location = new System.Drawing.Point(15, 123);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(88, 20);
@@ -163,7 +154,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(15, 190);
+            this.label3.Location = new System.Drawing.Point(15, 149);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(88, 20);
@@ -176,7 +167,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(15, 136);
+            this.label2.Location = new System.Drawing.Point(15, 95);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 20);
@@ -193,7 +184,7 @@
             this.btTraSach.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btTraSach.Image = ((System.Drawing.Image)(resources.GetObject("btTraSach.Image")));
             this.btTraSach.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btTraSach.Location = new System.Drawing.Point(203, 214);
+            this.btTraSach.Location = new System.Drawing.Point(203, 173);
             this.btTraSach.Margin = new System.Windows.Forms.Padding(2);
             this.btTraSach.Name = "btTraSach";
             this.btTraSach.Size = new System.Drawing.Size(88, 46);
@@ -201,6 +192,7 @@
             this.btTraSach.Text = "Trả";
             this.btTraSach.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btTraSach.UseVisualStyleBackColor = false;
+            this.btTraSach.Click += new System.EventHandler(this.BtTraSach_Click);
             // 
             // listView1
             // 
@@ -225,6 +217,7 @@
             this.lvDanhSachPhieuMuon.TabIndex = 0;
             this.lvDanhSachPhieuMuon.UseCompatibleStateImageBehavior = false;
             this.lvDanhSachPhieuMuon.View = System.Windows.Forms.View.Details;
+            this.lvDanhSachPhieuMuon.SelectedIndexChanged += new System.EventHandler(this.LvDanhSachPhieuMuon_SelectedIndexChanged);
             // 
             // lvSachDaDuocMuon
             // 
@@ -244,7 +237,7 @@
             this.dtpNgayMuon.CustomFormat = "dd/MM/yyyy";
             this.dtpNgayMuon.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dtpNgayMuon.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dtpNgayMuon.Location = new System.Drawing.Point(112, 164);
+            this.dtpNgayMuon.Location = new System.Drawing.Point(112, 123);
             this.dtpNgayMuon.Name = "dtpNgayMuon";
             this.dtpNgayMuon.Size = new System.Drawing.Size(180, 21);
             this.dtpNgayMuon.TabIndex = 58;
@@ -256,7 +249,7 @@
             this.groupBox3.Controls.Add(this.lvSachDaDuocMuon);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Gold;
-            this.groupBox3.Location = new System.Drawing.Point(4, 421);
+            this.groupBox3.Location = new System.Drawing.Point(4, 380);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
@@ -274,7 +267,7 @@
             this.btThoat.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btThoat.Image = ((System.Drawing.Image)(resources.GetObject("btThoat.Image")));
             this.btThoat.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btThoat.Location = new System.Drawing.Point(295, 164);
+            this.btThoat.Location = new System.Drawing.Point(295, 123);
             this.btThoat.Margin = new System.Windows.Forms.Padding(2);
             this.btThoat.Name = "btThoat";
             this.btThoat.Size = new System.Drawing.Size(88, 46);
@@ -282,6 +275,7 @@
             this.btThoat.Text = "Thoát";
             this.btThoat.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btThoat.UseVisualStyleBackColor = false;
+            this.btThoat.Click += new System.EventHandler(this.BtThoat_Click);
             // 
             // btThemVaoGH
             // 
@@ -292,7 +286,7 @@
             this.btThemVaoGH.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btThemVaoGH.Image = ((System.Drawing.Image)(resources.GetObject("btThemVaoGH.Image")));
             this.btThemVaoGH.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btThemVaoGH.Location = new System.Drawing.Point(19, 214);
+            this.btThemVaoGH.Location = new System.Drawing.Point(19, 173);
             this.btThemVaoGH.Margin = new System.Windows.Forms.Padding(2);
             this.btThemVaoGH.Name = "btThemVaoGH";
             this.btThemVaoGH.Size = new System.Drawing.Size(88, 46);
@@ -300,6 +294,7 @@
             this.btThemVaoGH.Text = "Thêm";
             this.btThemVaoGH.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btThemVaoGH.UseVisualStyleBackColor = false;
+            this.btThemVaoGH.Click += new System.EventHandler(this.BtThemVaoGH_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -308,6 +303,7 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(109, 37);
             this.toolStripMenuItem1.Text = "Quản lý sách";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.ToolStripMenuItem1_Click);
             // 
             // groupBox4
             // 
@@ -316,7 +312,7 @@
             this.groupBox4.Controls.Add(this.lvDanhSachPhieuMuon);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.Color.Gold;
-            this.groupBox4.Location = new System.Drawing.Point(524, 267);
+            this.groupBox4.Location = new System.Drawing.Point(524, 226);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
@@ -341,6 +337,7 @@
             this.mượnToolStripMenuItem.Name = "mượnToolStripMenuItem";
             this.mượnToolStripMenuItem.Size = new System.Drawing.Size(128, 37);
             this.mượnToolStripMenuItem.Text = "Quản lý độc giả";
+            this.mượnToolStripMenuItem.Click += new System.EventHandler(this.MượnToolStripMenuItem_Click);
             // 
             // sáchToolStripMenuItem
             // 
@@ -358,6 +355,7 @@
             this.độcGiảToolStripMenuItem.Name = "độcGiảToolStripMenuItem";
             this.độcGiảToolStripMenuItem.Size = new System.Drawing.Size(146, 37);
             this.độcGiảToolStripMenuItem.Text = "Quản lý nhân viên";
+            this.độcGiảToolStripMenuItem.Click += new System.EventHandler(this.ĐộcGiảToolStripMenuItem_Click);
             // 
             // menuStrip1
             // 
@@ -373,7 +371,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(783, 41);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 41);
             this.menuStrip1.TabIndex = 45;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -383,24 +381,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Gold;
-            this.label1.Location = new System.Drawing.Point(65, 54);
+            this.label1.Location = new System.Drawing.Point(65, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(263, 26);
             this.label1.TabIndex = 44;
             this.label1.Text = "QUẢN LÝ MƯỢN - TRẢ";
-            // 
-            // lvGioHang
-            // 
-            this.lvGioHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lvGioHang.GridLines = true;
-            this.lvGioHang.HideSelection = false;
-            this.lvGioHang.Location = new System.Drawing.Point(4, 22);
-            this.lvGioHang.Margin = new System.Windows.Forms.Padding(2);
-            this.lvGioHang.Name = "lvGioHang";
-            this.lvGioHang.Size = new System.Drawing.Size(374, 194);
-            this.lvGioHang.TabIndex = 0;
-            this.lvGioHang.UseCompatibleStateImageBehavior = false;
-            this.lvGioHang.View = System.Windows.Forms.View.Details;
             // 
             // groupBox2
             // 
@@ -408,7 +393,7 @@
             this.groupBox2.Controls.Add(this.lvGioHang);
             this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.Color.Gold;
-            this.groupBox2.Location = new System.Drawing.Point(397, 43);
+            this.groupBox2.Location = new System.Drawing.Point(407, 43);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
@@ -416,6 +401,19 @@
             this.groupBox2.TabIndex = 43;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Giỏ hàng (Tạm thời)";
+            // 
+            // lvGioHang
+            // 
+            this.lvGioHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lvGioHang.GridLines = true;
+            this.lvGioHang.HideSelection = false;
+            this.lvGioHang.Location = new System.Drawing.Point(4, 20);
+            this.lvGioHang.Margin = new System.Windows.Forms.Padding(2);
+            this.lvGioHang.Name = "lvGioHang";
+            this.lvGioHang.Size = new System.Drawing.Size(374, 156);
+            this.lvGioHang.TabIndex = 0;
+            this.lvGioHang.UseCompatibleStateImageBehavior = false;
+            this.lvGioHang.View = System.Windows.Forms.View.Details;
             // 
             // btChotDonHang
             // 
@@ -426,7 +424,7 @@
             this.btChotDonHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btChotDonHang.Image = ((System.Drawing.Image)(resources.GetObject("btChotDonHang.Image")));
             this.btChotDonHang.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btChotDonHang.Location = new System.Drawing.Point(111, 214);
+            this.btChotDonHang.Location = new System.Drawing.Point(111, 173);
             this.btChotDonHang.Margin = new System.Windows.Forms.Padding(2);
             this.btChotDonHang.Name = "btChotDonHang";
             this.btChotDonHang.Size = new System.Drawing.Size(88, 46);
@@ -434,25 +432,37 @@
             this.btChotDonHang.Text = "Chốt";
             this.btChotDonHang.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btChotDonHang.UseVisualStyleBackColor = false;
+            this.btChotDonHang.Click += new System.EventHandler(this.BtChotDonHang_Click);
             // 
             // txtTimKiem
             // 
             this.txtTimKiem.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTimKiem.Location = new System.Drawing.Point(112, 134);
+            this.txtTimKiem.Location = new System.Drawing.Point(112, 93);
             this.txtTimKiem.Margin = new System.Windows.Forms.Padding(2);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(272, 26);
             this.txtTimKiem.TabIndex = 41;
+            this.txtTimKiem.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtTimKiem_KeyUp);
+            // 
+            // cbDocGia
+            // 
+            this.cbDocGia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbDocGia.FormattingEnabled = true;
+            this.cbDocGia.Location = new System.Drawing.Point(112, 64);
+            this.cbDocGia.Margin = new System.Windows.Forms.Padding(2);
+            this.cbDocGia.Name = "cbDocGia";
+            this.cbDocGia.Size = new System.Drawing.Size(272, 23);
+            this.cbDocGia.TabIndex = 60;
             // 
             // GUIQuanLyMuonTra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(783, 532);
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.cbDocGia);
             this.Controls.Add(this.btXoa);
             this.Controls.Add(this.dtpNgayTra);
-            this.Controls.Add(this.cbDocGia);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -470,8 +480,7 @@
             this.Controls.Add(this.btChotDonHang);
             this.Controls.Add(this.txtTimKiem);
             this.Name = "GUIQuanLyMuonTra";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Quản lý mượn trả";
+            this.Text = "GUIQuanLyMuonTra";
             this.Load += new System.EventHandler(this.QuanLyMuon_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
@@ -488,7 +497,6 @@
 
         private System.Windows.Forms.Button btXoa;
         private System.Windows.Forms.DateTimePicker dtpNgayTra;
-        private System.Windows.Forms.ComboBox cbDocGia;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ListView lvSach;
         private System.Windows.Forms.Label label5;
@@ -511,9 +519,10 @@
         private System.Windows.Forms.ToolStripMenuItem độcGiảToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ListView lvGioHang;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ListView lvGioHang;
         private System.Windows.Forms.Button btChotDonHang;
         private System.Windows.Forms.TextBox txtTimKiem;
+        private System.Windows.Forms.ComboBox cbDocGia;
     }
 }

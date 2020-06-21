@@ -50,6 +50,7 @@
             this.button1.TabIndex = 15;
             this.button1.Text = "Thoát";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // MS
             // 
@@ -65,6 +66,7 @@
             this.MS.TabIndex = 14;
             this.MS.Text = "Mượn - Trả";
             this.MS.UseVisualStyleBackColor = false;
+            this.MS.Click += new System.EventHandler(this.MS_Click);
             // 
             // DG
             // 
@@ -80,6 +82,7 @@
             this.DG.TabIndex = 13;
             this.DG.Text = "Độc giả";
             this.DG.UseVisualStyleBackColor = false;
+            this.DG.Click += new System.EventHandler(this.DG_Click);
             // 
             // Sach
             // 
@@ -88,13 +91,14 @@
             this.Sach.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.Sach.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Sach.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Sach.Location = new System.Drawing.Point(61, 188);
+            this.Sach.Location = new System.Drawing.Point(61, 58);
             this.Sach.Margin = new System.Windows.Forms.Padding(2);
             this.Sach.Name = "Sach";
             this.Sach.Size = new System.Drawing.Size(202, 61);
             this.Sach.TabIndex = 12;
             this.Sach.Text = "Sách";
             this.Sach.UseVisualStyleBackColor = false;
+            this.Sach.Click += new System.EventHandler(this.Sach_Click);
             // 
             // NV
             // 
@@ -103,13 +107,14 @@
             this.NV.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Gray;
             this.NV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NV.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NV.Location = new System.Drawing.Point(61, 57);
+            this.NV.Location = new System.Drawing.Point(61, 189);
             this.NV.Margin = new System.Windows.Forms.Padding(2);
             this.NV.Name = "NV";
             this.NV.Size = new System.Drawing.Size(202, 61);
             this.NV.TabIndex = 11;
             this.NV.Text = "Nhân viên";
             this.NV.UseVisualStyleBackColor = false;
+            this.NV.Click += new System.EventHandler(this.NV_Click);
             // 
             // GUIMain
             // 

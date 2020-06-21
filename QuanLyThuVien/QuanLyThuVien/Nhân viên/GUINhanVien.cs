@@ -230,6 +230,7 @@ namespace QuanLyThuVien
             }
         }
 
+
         private void BtXoa_Click(object sender, EventArgs e)
         {
             if (lvDataBase.SelectedItems.Count > 0)

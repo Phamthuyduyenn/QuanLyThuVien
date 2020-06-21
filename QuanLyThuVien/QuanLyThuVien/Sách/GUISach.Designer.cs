@@ -77,6 +77,7 @@
             this.lvS.TabIndex = 0;
             this.lvS.UseCompatibleStateImageBehavior = false;
             this.lvS.View = System.Windows.Forms.View.Details;
+            this.lvS.SelectedIndexChanged += new System.EventHandler(this.LvS_SelectedIndexChanged);
             // 
             // txtTimKiem
             // 
@@ -85,6 +86,8 @@
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(231, 24);
             this.txtTimKiem.TabIndex = 21;
+            this.txtTimKiem.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtTimKiem_KeyPress);
+            this.txtTimKiem.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtTimKiem_KeyUp_2);
             // 
             // label2
             // 
@@ -104,6 +107,8 @@
             this.txtNamXuatBan.Name = "txtNamXuatBan";
             this.txtNamXuatBan.Size = new System.Drawing.Size(231, 24);
             this.txtNamXuatBan.TabIndex = 19;
+            this.txtNamXuatBan.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtNamXuatBan_KeyPress);
+            this.txtNamXuatBan.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtTimKiem_KeyUp_1);
             // 
             // txtGia
             // 
@@ -112,6 +117,8 @@
             this.txtGia.Name = "txtGia";
             this.txtGia.Size = new System.Drawing.Size(231, 24);
             this.txtGia.TabIndex = 16;
+            this.txtGia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtNamXuatBan_KeyPress);
+            this.txtGia.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtTimKiem_KeyUp_1);
             // 
             // label9
             // 
@@ -164,6 +171,7 @@
             this.txtTacGia.Name = "txtTacGia";
             this.txtTacGia.Size = new System.Drawing.Size(231, 24);
             this.txtTacGia.TabIndex = 8;
+            this.txtTacGia.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtTimKiem_KeyUp_1);
             // 
             // độcGiảToolStripMenuItem
             // 
@@ -172,6 +180,7 @@
             this.độcGiảToolStripMenuItem.Name = "độcGiảToolStripMenuItem";
             this.độcGiảToolStripMenuItem.Size = new System.Drawing.Size(161, 44);
             this.độcGiảToolStripMenuItem.Text = "Quản lý nhân viên";
+            this.độcGiảToolStripMenuItem.Click += new System.EventHandler(this.ĐộcGiảToolStripMenuItem_Click);
             // 
             // sáchToolStripMenuItem
             // 
@@ -189,6 +198,7 @@
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(141, 44);
             this.toolStripMenuItem3.Text = "Quản lý độc giả";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.MượnToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -211,6 +221,7 @@
             this.txtTenSach.Name = "txtTenSach";
             this.txtTenSach.Size = new System.Drawing.Size(231, 24);
             this.txtTenSach.TabIndex = 7;
+            this.txtTenSach.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtTimKiem_KeyUp_1);
             // 
             // txtNhaXuatBan
             // 
@@ -219,6 +230,7 @@
             this.txtNhaXuatBan.Name = "txtNhaXuatBan";
             this.txtNhaXuatBan.Size = new System.Drawing.Size(231, 24);
             this.txtNhaXuatBan.TabIndex = 6;
+            this.txtNhaXuatBan.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtTimKiem_KeyUp_1);
             // 
             // txtMaSach
             // 
@@ -227,6 +239,7 @@
             this.txtMaSach.Name = "txtMaSach";
             this.txtMaSach.Size = new System.Drawing.Size(231, 24);
             this.txtMaSach.TabIndex = 5;
+            this.txtMaSach.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtTimKiem_KeyUp_1);
             // 
             // label6
             // 
@@ -289,6 +302,7 @@
             this.quảnLýMượnTrảToolStripMenuItem1.Name = "quảnLýMượnTrảToolStripMenuItem1";
             this.quảnLýMượnTrảToolStripMenuItem1.Size = new System.Drawing.Size(156, 44);
             this.quảnLýMượnTrảToolStripMenuItem1.Text = "Quản lý mượn trả";
+            this.quảnLýMượnTrảToolStripMenuItem1.Click += new System.EventHandler(this.QuảnLýMượnTrảToolStripMenuItem1_Click);
             // 
             // label4
             // 
@@ -317,6 +331,7 @@
             this.btExit.Text = "Thoát";
             this.btExit.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btExit.UseVisualStyleBackColor = false;
+            this.btExit.Click += new System.EventHandler(this.BtExit_Click);
             // 
             // btSuaS
             // 
@@ -334,6 +349,7 @@
             this.btSuaS.Text = "Sửa";
             this.btSuaS.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btSuaS.UseVisualStyleBackColor = false;
+            this.btSuaS.Click += new System.EventHandler(this.BtSuaS_Click);
             // 
             // btXoaS
             // 
@@ -351,6 +367,7 @@
             this.btXoaS.Text = "Xóa";
             this.btXoaS.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btXoaS.UseVisualStyleBackColor = false;
+            this.btXoaS.Click += new System.EventHandler(this.BtXoaS_Click);
             // 
             // btThemS
             // 
@@ -368,6 +385,7 @@
             this.btThemS.Text = "Thêm";
             this.btThemS.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btThemS.UseVisualStyleBackColor = false;
+            this.btThemS.Click += new System.EventHandler(this.BtThemS_Click);
             // 
             // label3
             // 
@@ -439,6 +457,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GUISach";
             this.Load += new System.EventHandler(this.FormSach_Load);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.FormSach_MouseUp);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);

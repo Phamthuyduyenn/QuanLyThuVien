@@ -41,7 +41,9 @@ namespace QuanLyThuVien
                     txtMK.Clear();
                     txtTK.Focus();
                     GUIMain main = new GUIMain();
+                    this.Hide();
                     main.ShowDialog();
+                    this.Close();
                 }
                 else
                 {

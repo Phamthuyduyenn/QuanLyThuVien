@@ -90,6 +90,7 @@
             this.độcGiảToolStripMenuItem.Name = "độcGiảToolStripMenuItem";
             this.độcGiảToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.độcGiảToolStripMenuItem.Text = "Quản lý nhân viên";
+            this.độcGiảToolStripMenuItem.Click += new System.EventHandler(this.ĐộcGiảToolStripMenuItem_Click);
             // 
             // sáchToolStripMenuItem
             // 
@@ -108,6 +109,7 @@
             this.mượnToolStripMenuItem.Name = "mượnToolStripMenuItem";
             this.mượnToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.mượnToolStripMenuItem.Text = "Quản lý sách";
+            this.mượnToolStripMenuItem.Click += new System.EventHandler(this.MượnToolStripMenuItem_Click);
             // 
             // quảnLýTrảToolStripMenuItem
             // 
@@ -125,6 +127,7 @@
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(166, 22);
             this.toolStripMenuItem1.Text = "Quản lý mượn - trả";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.ToolStripMenuItem1_Click);
             // 
             // txtTienNoDG
             // 
@@ -133,6 +136,8 @@
             this.txtTienNoDG.Name = "txtTienNoDG";
             this.txtTienNoDG.Size = new System.Drawing.Size(234, 22);
             this.txtTienNoDG.TabIndex = 16;
+            this.txtTienNoDG.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtTienNoDG_KeyPress);
+            this.txtTienNoDG.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtMaDocGia_KeyUp);
             // 
             // dtpNgaySinhDG
             // 
@@ -166,6 +171,7 @@
             this.dtpNgayLapThe.Size = new System.Drawing.Size(234, 21);
             this.dtpNgayLapThe.TabIndex = 13;
             this.dtpNgayLapThe.Value = new System.DateTime(2020, 3, 10, 22, 52, 39, 0);
+            this.dtpNgayLapThe.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtMaDocGia_KeyUp);
             // 
             // label8
             // 
@@ -185,6 +191,7 @@
             this.txtHoTenDG.Name = "txtHoTenDG";
             this.txtHoTenDG.Size = new System.Drawing.Size(231, 22);
             this.txtHoTenDG.TabIndex = 11;
+            this.txtHoTenDG.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtMaDocGia_KeyUp);
             // 
             // txtTienNo
             // 
@@ -207,6 +214,7 @@
             this.dtpNgayHetHan.Size = new System.Drawing.Size(234, 21);
             this.dtpNgayHetHan.TabIndex = 9;
             this.dtpNgayHetHan.Value = new System.DateTime(2020, 3, 10, 22, 52, 39, 0);
+            this.dtpNgayHetHan.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtMaDocGia_KeyUp);
             // 
             // txtEmail
             // 
@@ -215,6 +223,7 @@
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(234, 22);
             this.txtEmail.TabIndex = 6;
+            this.txtEmail.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtMaDocGia_KeyUp);
             // 
             // txtMaDocGia
             // 
@@ -223,6 +232,7 @@
             this.txtMaDocGia.Name = "txtMaDocGia";
             this.txtMaDocGia.Size = new System.Drawing.Size(231, 22);
             this.txtMaDocGia.TabIndex = 5;
+            this.txtMaDocGia.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtMaDocGia_KeyUp);
             // 
             // btXoaDG
             // 
@@ -241,6 +251,7 @@
             this.btXoaDG.Text = "Xóa";
             this.btXoaDG.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btXoaDG.UseVisualStyleBackColor = false;
+            this.btXoaDG.Click += new System.EventHandler(this.BtXoaDG_Click);
             // 
             // btThemDG
             // 
@@ -259,6 +270,7 @@
             this.btThemDG.Text = "Thêm";
             this.btThemDG.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btThemDG.UseVisualStyleBackColor = false;
+            this.btThemDG.Click += new System.EventHandler(this.BtThemDG_Click);
             // 
             // txtDiaChiDG
             // 
@@ -267,6 +279,7 @@
             this.txtDiaChiDG.Name = "txtDiaChiDG";
             this.txtDiaChiDG.Size = new System.Drawing.Size(231, 22);
             this.txtDiaChiDG.TabIndex = 7;
+            this.txtDiaChiDG.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtMaDocGia_KeyUp);
             // 
             // btThoatDG
             // 
@@ -285,6 +298,7 @@
             this.btThoatDG.Text = "Thoát";
             this.btThoatDG.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btThoatDG.UseVisualStyleBackColor = false;
+            this.btThoatDG.Click += new System.EventHandler(this.BtThoatDG_Click);
             // 
             // label6
             // 
@@ -358,6 +372,7 @@
             this.btSuaDG.Text = "Sửa";
             this.btSuaDG.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btSuaDG.UseVisualStyleBackColor = false;
+            this.btSuaDG.Click += new System.EventHandler(this.BtSuaDG_Click);
             // 
             // groupBox1
             // 
@@ -400,6 +415,7 @@
             this.lvDBDG.TabIndex = 0;
             this.lvDBDG.UseCompatibleStateImageBehavior = false;
             this.lvDBDG.View = System.Windows.Forms.View.Details;
+            this.lvDBDG.SelectedIndexChanged += new System.EventHandler(this.LvDBDG_SelectedIndexChanged);
             // 
             // groupBox3
             // 
@@ -430,6 +446,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(785, 504);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btXoaDG);
@@ -442,6 +459,7 @@
             this.Name = "GUIDocGia";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GUIDocGia";
+            this.Load += new System.EventHandler(this.FormDocGia_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
