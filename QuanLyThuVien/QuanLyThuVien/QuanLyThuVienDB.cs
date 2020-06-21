@@ -1,6 +1,6 @@
-namespace QuanLyThuVien
+namespace LapTrinhCoSoDuLieu
 {
-    partial class QuanLyThuVienDBDataContext
+    partial class DataClasses1DataContext
     {
     }
 }

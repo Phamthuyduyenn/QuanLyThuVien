@@ -4,3 +4,5 @@ C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien
 C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.GUIDocGia.resources
 C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.GenerateResource.cache
 C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csproj.CoreCompileInputs.cache
+C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
+C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.GUIQuanLyMuonTra.resources
