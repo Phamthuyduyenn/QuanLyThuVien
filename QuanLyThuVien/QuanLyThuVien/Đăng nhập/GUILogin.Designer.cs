@@ -1,4 +1,4 @@
-﻿namespace QuanLyThuVien.Đăng_nhập
+﻿namespace LapTrinhCoSoDuLieu
 {
     partial class GUILogin
     {
