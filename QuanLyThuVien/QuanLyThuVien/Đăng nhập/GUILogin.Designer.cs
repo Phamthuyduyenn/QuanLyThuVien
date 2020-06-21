@@ -149,7 +149,7 @@
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Name = "GUILogin";
-            this.Text = "GUILogin";
+            this.Text = "Đăng nhập";
             this.ResumeLayout(false);
             this.PerformLayout();
 

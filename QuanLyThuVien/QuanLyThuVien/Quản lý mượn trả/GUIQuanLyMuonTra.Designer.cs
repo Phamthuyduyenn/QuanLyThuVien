@@ -470,7 +470,7 @@
             this.Controls.Add(this.btChotDonHang);
             this.Controls.Add(this.txtTimKiem);
             this.Name = "GUIQuanLyMuonTra";
-            this.Text = "GUIQuanLyMuonTra";
+            this.Text = "Quản lý mượn trả";
             this.Load += new System.EventHandler(this.QuanLyMuon_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);

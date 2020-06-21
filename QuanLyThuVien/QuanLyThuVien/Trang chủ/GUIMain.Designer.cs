@@ -123,8 +123,9 @@
             this.Controls.Add(this.DG);
             this.Controls.Add(this.Sach);
             this.Controls.Add(this.NV);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GUIMain";
-            this.Text = "GUIMain";
+            this.Text = "Trang chủ";
             this.ResumeLayout(false);
 
         }
