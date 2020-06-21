@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace QuanLyThuVien
+namespace QuanLyThuVien.Đăng_nhập
 {
-    public partial class Form1 : Form
+    public partial class GUILogin : Form
     {
-        public Form1()
+        public GUILogin()
         {
             InitializeComponent();
         }
