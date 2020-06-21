@@ -367,6 +367,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.menuStrip1);
             this.Name = "GUINhanVien";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nhân Viên";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

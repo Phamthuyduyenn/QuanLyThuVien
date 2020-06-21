@@ -88,7 +88,7 @@
             this.độcGiảToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.độcGiảToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.độcGiảToolStripMenuItem.Name = "độcGiảToolStripMenuItem";
-            this.độcGiảToolStripMenuItem.Size = new System.Drawing.Size(161, 46);
+            this.độcGiảToolStripMenuItem.Size = new System.Drawing.Size(161, 22);
             this.độcGiảToolStripMenuItem.Text = "Quản lý nhân viên";
             // 
             // sáchToolStripMenuItem
@@ -98,7 +98,7 @@
             this.sáchToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sáchToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.sáchToolStripMenuItem.Name = "sáchToolStripMenuItem";
-            this.sáchToolStripMenuItem.Size = new System.Drawing.Size(12, 46);
+            this.sáchToolStripMenuItem.Size = new System.Drawing.Size(12, 22);
             this.sáchToolStripMenuItem.Text = "|";
             // 
             // mượnToolStripMenuItem
@@ -106,7 +106,7 @@
             this.mượnToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mượnToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.mượnToolStripMenuItem.Name = "mượnToolStripMenuItem";
-            this.mượnToolStripMenuItem.Size = new System.Drawing.Size(119, 46);
+            this.mượnToolStripMenuItem.Size = new System.Drawing.Size(119, 22);
             this.mượnToolStripMenuItem.Text = "Quản lý sách";
             // 
             // quảnLýTrảToolStripMenuItem
@@ -115,7 +115,7 @@
             this.quảnLýTrảToolStripMenuItem.Enabled = false;
             this.quảnLýTrảToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.quảnLýTrảToolStripMenuItem.Name = "quảnLýTrảToolStripMenuItem";
-            this.quảnLýTrảToolStripMenuItem.Size = new System.Drawing.Size(12, 46);
+            this.quảnLýTrảToolStripMenuItem.Size = new System.Drawing.Size(12, 22);
             this.quảnLýTrảToolStripMenuItem.Text = "|";
             // 
             // toolStripMenuItem1
@@ -123,7 +123,7 @@
             this.toolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(166, 46);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(166, 22);
             this.toolStripMenuItem1.Text = "Quản lý mượn - trả";
             // 
             // txtTienNoDG
@@ -440,6 +440,7 @@
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.label1);
             this.Name = "GUIDocGia";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GUIDocGia";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

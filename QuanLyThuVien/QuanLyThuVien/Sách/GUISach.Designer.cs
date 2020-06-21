@@ -436,6 +436,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox3);
             this.Name = "GUISach";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GUISach";
             this.Load += new System.EventHandler(this.FormSach_Load);
             this.menuStrip1.ResumeLayout(false);

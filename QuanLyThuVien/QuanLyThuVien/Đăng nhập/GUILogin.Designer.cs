@@ -59,7 +59,7 @@
             this.btnExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnExit.ForeColor = System.Drawing.Color.Black;
-            this.btnExit.Location = new System.Drawing.Point(83, 309);
+            this.btnExit.Location = new System.Drawing.Point(55, 309);
             this.btnExit.Margin = new System.Windows.Forms.Padding(2);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(94, 35);
@@ -75,7 +75,7 @@
             this.btnĐN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnĐN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnĐN.ForeColor = System.Drawing.Color.Black;
-            this.btnĐN.Location = new System.Drawing.Point(184, 309);
+            this.btnĐN.Location = new System.Drawing.Point(194, 309);
             this.btnĐN.Margin = new System.Windows.Forms.Padding(2);
             this.btnĐN.Name = "btnĐN";
             this.btnĐN.Size = new System.Drawing.Size(106, 35);
@@ -88,7 +88,7 @@
             this.txtMK.BackColor = System.Drawing.SystemColors.HighlightText;
             this.txtMK.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMK.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txtMK.Location = new System.Drawing.Point(165, 231);
+            this.txtMK.Location = new System.Drawing.Point(165, 242);
             this.txtMK.Margin = new System.Windows.Forms.Padding(2);
             this.txtMK.Name = "txtMK";
             this.txtMK.PasswordChar = '*';
@@ -112,7 +112,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(66, 231);
+            this.label2.Location = new System.Drawing.Point(51, 245);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(83, 20);
@@ -125,7 +125,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(66, 202);
+            this.label1.Location = new System.Drawing.Point(51, 202);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(87, 20);
@@ -139,7 +139,7 @@
             this.BackColor = System.Drawing.Color.Lavender;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(386, 491);
+            this.ClientSize = new System.Drawing.Size(358, 532);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnĐN);
@@ -149,6 +149,7 @@
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.Name = "GUILogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Đăng nhập";
             this.ResumeLayout(false);
             this.PerformLayout();
