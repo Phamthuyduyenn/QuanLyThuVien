@@ -79,6 +79,13 @@
     <Compile Include="Sách\GUISach.Designer.cs">
       <DependentUpon>GUISach.cs</DependentUpon>
     </Compile>
+    <Compile Include="Trang chủ\DAOvsBUSMain.cs" />
+    <Compile Include="Trang chủ\GUIMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Trang chủ\GUIMain.Designer.cs">
+      <DependentUpon>GUIMain.cs</DependentUpon>
+    </Compile>
     <Compile Include="Đăng nhập\DAOvsBUSLogin.cs" />
     <Compile Include="Đăng nhập\GUILogin.cs">
       <SubType>Form</SubType>
@@ -110,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sách\GUISach.resx">
       <DependentUpon>GUISach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Trang chủ\GUIMain.resx">
+      <DependentUpon>GUIMain.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Đăng nhập\GUILogin.resx">
       <DependentUpon>GUILogin.cs</DependentUpon>

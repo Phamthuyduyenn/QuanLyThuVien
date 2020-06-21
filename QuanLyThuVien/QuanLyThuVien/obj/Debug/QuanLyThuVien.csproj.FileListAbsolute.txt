@@ -7,3 +7,9 @@ C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien
 C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.csprojAssemblyReference.cache
 C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.GUIQuanLyMuonTra.resources
 C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.GUISach.resources
+C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe.config
+C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.exe
+C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\bin\Debug\QuanLyThuVien.pdb
+C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.GUIMain.resources
+C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.exe
+C:\Users\HaiApple.com\Documents\GitHub\QuanLyThuVien\QuanLyThuVien\QuanLyThuVien\obj\Debug\QuanLyThuVien.pdb
