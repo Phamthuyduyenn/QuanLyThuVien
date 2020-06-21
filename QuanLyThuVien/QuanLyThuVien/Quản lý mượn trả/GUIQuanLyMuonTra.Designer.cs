@@ -448,6 +448,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(783, 532);
             this.Controls.Add(this.btXoa);
             this.Controls.Add(this.dtpNgayTra);
@@ -470,6 +471,7 @@
             this.Controls.Add(this.txtTimKiem);
             this.Name = "GUIQuanLyMuonTra";
             this.Text = "GUIQuanLyMuonTra";
+            this.Load += new System.EventHandler(this.QuanLyMuon_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
